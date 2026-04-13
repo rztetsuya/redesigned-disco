@@ -57,9 +57,9 @@
           "mldsa65Verify": "",
           "publicKey": "58eze_XR4_gZCcwyE48TG3Df5tPHEN6Ml1Evw0KoC3I",
           "serverName": "www.amd.com",
-          "shortId": "f1777c5da9f3",
+          "shortId": "2e10da18",
           "show": false,
-          "spiderX": "/geW3Q0kq5J68Ud9"
+          "spiderX": "/PWKQndoeVPxvhkW"
         },
         "security": "reality"
       },
@@ -71,7 +71,7 @@
             "users": [
               {
                 "encryption": "none",
-                "id": "1150f89d-b681-4f93-bced-4bacc68e2ede",
+                "id": "c0c7ec6b-af82-412e-9d1a-ce12fa268a0d",
                 "level": 8
               }
             ]
@@ -112,7 +112,7 @@
       "statsOutboundUplink": true
     }
   },
-  "remarks": "timoxa-level1",
+  "remarks": "timoxa-level2",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
