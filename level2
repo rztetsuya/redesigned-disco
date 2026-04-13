@@ -57,9 +57,9 @@
           "mldsa65Verify": "",
           "publicKey": "58eze_XR4_gZCcwyE48TG3Df5tPHEN6Ml1Evw0KoC3I",
           "serverName": "www.amd.com",
-          "shortId": "2e10da18",
+          "shortId": "f1777c5da9f3",
           "show": false,
-          "spiderX": "/PWKQndoeVPxvhkW"
+          "spiderX": "/geW3Q0kq5J68Ud9"
         },
         "security": "reality"
       },
@@ -71,7 +71,7 @@
             "users": [
               {
                 "encryption": "none",
-                "id": "c0c7ec6b-af82-412e-9d1a-ce12fa268a0d",
+                "id": "1150f89d-b681-4f93-bced-4bacc68e2ede",
                 "level": 8
               }
             ]
@@ -112,8 +112,9 @@
       "statsOutboundUplink": true
     }
   },
-  "remarks": "timoxa-level2",
+  "remarks": "timoxa-level1",
   "routing": {
+    "domainStrategy": "AsIs",
     "rules": [
       {
         "type": "field",
@@ -191,8 +192,7 @@
           "geosite:category-ru",
           "geosite:vk",
           "geosite:yandex",
-          "regexp:^(.+\\.)?mail\\.ru$",
-          "regexp:^(.+\\.)?yandex\\.(aero|az|by|cloud|co\\.il|com(\\.am|\\.ge|\\.ru|\\.tr|\\.ua)?|de|ee|eu|fi|fr|jobs|kg|kz|lt|lv|md|net|org|pl|ru|st|sx|tj|tm|tr|ua|uz)$",
+          "regexp:^(.+\\.)?mail\\.ru$",		"regexp:^(.+\\.)?yandex\\.(aero|az|by|cloud|co\\.il|com(\\.am|\\.ge|\\.ru|\\.tr|\\.ua)?|de|ee|eu|fi|fr|jobs|kg|kz|lt|lv|md|net|org|pl|ru|st|sx|tj|tm|tr|ua|uz)$",
           "regexp:^(.+\\.)?vk\\.(com|ru)$",
           "regexp:^(.+\\.)?ok(cdn)?\\.ru$",
           "regexp:^(.+\\.)?2gis\\.(ae|am|az|by|com(\\.cy)?|cz|ge|kg|kz|ru|tj|ua|uz)$",
@@ -221,7 +221,7 @@
           "regexp:^sso-app[0-9]+\\.vtb\\.ru$",
           "domain:stbid.ru",
           "domain:1c-bitrix.ru",
-			"domain:1c.ru",
+		  "domain:1c.ru",
           "domain:1cfresh.com",
           "domain:1cloud.ru",
           "domain:1internet.tv",
@@ -338,7 +338,7 @@
           "domain:megamarket.ru",
           "domain:megamarket.tech",
           "domain:memealerts.com",
-			"domain:alfabank.ru",
+		  "domain:alfabank.ru",
           "domain:mirpayonline.ru",
           "domain:miya-news.online",
           "domain:mm.ru",
@@ -452,9 +452,7 @@
         "port": 53,
         "outboundTag": "dns-out"
       }
-    ],
-    "domainMatcher": "hybrid",
-    "domainStrategy": "IPIfNonMatch"
+    ]
   },
   "stats": {}
 }
